@@ -325,7 +325,7 @@ def function19():
     # Now return output as "(X*W)+b:
 
     X =  np.arange(1,26).reshape(5,5) # Write your code here
-    W =  np.copy(X) # Write your code here
+    W =  np.transpose(X) # Write your code here
     b =  5 # Write your code here
     output =   (X*W)+b # Write your code here
 
